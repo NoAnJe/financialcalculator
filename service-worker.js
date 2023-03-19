@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/FinancialCalculator/precache-manifest.007aa8b680fe52208dec19a0ce4e2489.js"
+  "/financialcalculator/precache-manifest.fc47737b6e97a6089fb83c15e475301a.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/FinancialCalculator/index.html", {
+workbox.routing.registerNavigationRoute("/financialcalculator/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
